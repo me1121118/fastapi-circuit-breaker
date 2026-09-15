@@ -1,0 +1,15 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "fastapi-circuit-breaker"
+version = "0.1.0"
+description = "Lightweight async circuit breaker decorator with fallback support for FastAPI."
+readme = "README.md"
+license = "MIT"
+authors = [{ name = "me1121118" }]
+keywords = ["fastapi", "circuit-breaker", "resilience", "microservices", "fault-tolerance"]
+dependencies = [
+    "fastapi>=0.100.0",
+]
